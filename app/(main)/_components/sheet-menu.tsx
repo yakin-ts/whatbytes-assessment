@@ -41,6 +41,7 @@ const SheetMenu = () => {
                                 "flex gap-x-2 pr-8 hover:text-blue-600 text-lg",
                                 isActive ? "bg-gray-200 rounded-tr-full rounded-br-full text-blue-700" : "text-gray-600"
                             )}
+                            onClick={toggleMenu}
                         >
                             <div className="p-4"><item.icon /></div>
                             <div className="p-4">{item.title}</div>
