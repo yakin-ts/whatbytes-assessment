@@ -25,7 +25,7 @@ const SheetMenu = () => {
 
     return (
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger className="flex md:hidden" asChild>
+            <SheetTrigger className="flex lg:hidden" asChild>
                 <Button variant={"outline"} size={"default"}>
                     <Menu size={48} strokeWidth={2}/>
                 </Button>

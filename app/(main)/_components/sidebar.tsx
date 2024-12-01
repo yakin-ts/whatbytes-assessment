@@ -11,7 +11,7 @@ const Sidebar = () => {
     const currentTab = useCurrentTab()
 
     return (
-        <aside className="hidden md:flex flex-col h-[calc(100vh-100px)] border-r pr-2 w-fit pt-10 font-semibold">
+        <aside className="hidden lg:flex flex-col h-[calc(100vh-100px)] border-r pr-2 w-fit pt-10 font-semibold">
             {sidebarContent.map((item, index) => {
                 const isActive = "/" + currentTab === item.href
                 return (
